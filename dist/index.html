@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CALC</title>
+    <script>function reply(click_id) {
+  document.getElementById("Ans").innerHTML = click_id;
+}</script>
+<script src="/calculator.9ad09f98.js"></script></head>
+<body>
+    <link rel="stylesheet" href="/calculator.9ad09f98.css">
+    <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="https://hackmd.io/" target="_blank">notes</a></li>
+            <!-- <li><a href="#clients">Our Clients</a></li>   -->
+            <!-- <li><a href="#contact">Contact Us</a></li> -->
+          </ul>
+    <div class="body">
+            <div class="rectangle">
+                <p>calculator</p>
+                <div class="display">
+                     <p id="Ans"></p>  
+                </div>
+            </div>
+                
+            <div class="digits">
+                    
+                <div class="row1">
+                    <div class="number" id="1" onclick="reply(this.id)">1</div>
+                    <div class="number" id="2" onclick="reply(this.id)">2</div>
+                    <div class="number" id="3" onclick="reply(this.id)">3</div>
+                </div>
+                <div class="row2">
+                    <div class="number" id="4" onclick="reply(this.id)">4</div>
+                    <div class="number" id="5" onclick="reply(this.id)">5</div>
+                    <div class="number" id="6" onclick="reply(this.id)">6</div>
+                </div>
+                <div class="row3">
+                    <div class="number" id="7" onclick="reply(this.id)">7</div>
+                    <div class="number" id="8" onclick="reply(this.id)">8</div>
+                    <div class="number" id="9" onclick="reply(this.id)">9</div>
+                </div>
+            </div>
+        </div>
+    
+</body>
+</html>

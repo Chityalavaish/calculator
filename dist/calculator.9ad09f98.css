@@ -1,0 +1,64 @@
+.nav {
+    background-color: yellow; 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    top:0;
+    heigth: 10px;
+    position: fixed;
+    border-radius: 5px;
+  }
+  
+  .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+.body {
+    margin-top:20%;
+    color: rgb(58, 52, 43);
+    font-size: medium;
+}
+
+.rectangle {
+    background-color: rgb(93, 151, 216);
+    text-align: center;
+  }
+
+  .display {
+      border: 2px solid rgba(88, 182, 236, 0.568);
+      padding:10px;
+      background-color: rgb(94, 125, 160);
+      border-radius: 5px;
+  }
+.digits {
+    /* display: inline-block; */
+    
+    background-color: rgb(127, 208, 255);
+    text-align: center;
+    margin: auto;
+    direction: ltr;
+    padding: 0;
+}
+.row1{
+    display: inline-block;
+    direction: ltr;
+}
+.row2 {
+    display: inline-block;
+    direction: ltr;
+}
+
+.row3 {
+    display: inline-block;
+    direction: ltr;
+}
+.number {
+    padding:30px;
+    margin: 10px;
+    background-color: rgba(45, 146, 177, 0.609);
+    border-radius: 50%;
+}
