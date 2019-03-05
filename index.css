@@ -1,17 +1,19 @@
 .nav {
-    background-color: yellow; 
-    list-style-type: none;
+    background-color: rgb(235, 235, 187);
     text-align: center;
     margin: 0;
+    display: inline-block;
+    padding-block-start: 0;
     padding: 0;
+    padding-right:5px;
     width:100%;
     top:0;
-    heigth: 10px;
+    min-height: 10px;
     position: fixed;
     border-radius: 5px;
   }
-  
-  .nav li {
+
+  .menu  {
     display: inline-block;
     font-size: 20px;
     padding: 20px;
@@ -24,7 +26,7 @@
 }
 
 .rectangle {
-    background-color: rgb(93, 151, 216);
+    background-color: rgb(167, 186, 209);
     text-align: center;
   }
 
@@ -34,27 +36,37 @@
       background-color: rgb(94, 125, 160);
       border-radius: 5px;
   }
-.digits {
-    /* display: inline-block; */
-    
+.contain {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(127, 208, 255);
     text-align: center;
     margin: auto;
-    direction: ltr;
     padding: 0;
 }
-.row1{
+
+.row{
     display: inline-block;
-    direction: ltr;
-}
-.row2 {
-    display: inline-block;
-    direction: ltr;
+    text-align: center;
+    /* direction: ltr; */
 }
 
-.row3 {
-    display: inline-block;
-    direction: ltr;
+.single {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zero {
+    padding:30px;
+    margin: 10px;
+    background-color: rgba(45, 146, 177, 0.609);
+    border-radius: 50%;
+}
+
+.arth {
+    display:inline-block;
+
 }
 .number {
     padding:30px;
