@@ -13,7 +13,7 @@
     border-radius: 5px;
   }
 
-  .menu  {
+.menu  {
     display: inline-block;
     font-size: 20px;
     padding: 20px;
@@ -28,16 +28,18 @@
 .rectangle {
     background-color: rgb(167, 186, 209);
     text-align: center;
-  }
+}
 
-  .display {
+.display {
       border: 2px solid rgba(88, 182, 236, 0.568);
       padding:10px;
       background-color: rgb(94, 125, 160);
       border-radius: 5px;
-  }
+}
+
 .contain {
     display: flex;
+    width: 100%;
     flex-direction: column;
     background-color: rgb(127, 208, 255);
     text-align: center;
@@ -45,10 +47,13 @@
     padding: 0;
 }
 
+/* .operations, .digits, .operators {
+
+} */
+
 .row{
     display: inline-block;
     text-align: center;
-    /* direction: ltr; */
 }
 
 .single {
@@ -68,6 +73,7 @@
     display:inline-block;
 
 }
+
 .number {
     padding:30px;
     margin: 10px;
